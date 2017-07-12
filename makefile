@@ -49,20 +49,20 @@ default: herwig65.exe
 #	wget http://www.hep.phy.cam.ac.uk/theory/webber/Herwig/herwig6521.f
 
 include: HERWIG65.INC herwig6521.f herwig6521.inc
-	mkdir include
-	mkdir include/herwig6510;
-	cp HERWIG65.INC herwig6521.inc  include/herwig6510;
-	cp HERWIG65.INC  include/herwig6510/herwig65.inc
+#	mkdir include
+#	mkdir include/herwig6510;
+#	cp HERWIG65.INC herwig6521.inc  include/herwig6510;
+#	cp HERWIG65.INC  include/herwig6510/herwig65.inc
 
 lib/libjimmy.so: include
-	wget www.hepforge.org/archive/jimmy/jimmy-4.31.tar.gz;
+#	wget www.hepforge.org/archive/jimmy/jimmy-4.31.tar.gz;
 	tar xzf jimmy-4.31.tar.gz;
 	cd  jimmy-4.31; ./configure --prefix=`pwd`/.. --with-herwig6521=`pwd`/..; make -j ${nproc} install
 herwig: jimmy
 
 
 herwig6521.o: herwig6521.f herwig6521.inc include 
-	gfortran -c -g herwig6521.f
+	gfortran -c -g herwig6521.f -Llib -lLHAPDF
 
 herwigmain.o: herwigmain.f herwig6521.inc include lib/libjimmy.so
 	gfortran -c -g herwigmain.f -I$(INCDIR)/jimmy
@@ -73,5 +73,5 @@ herwig65.exe: driver.cc herwigmain.o herwig6521.o lib/libjimmy.so
 	g++ $(CXXFLAGS) driver.cc herwig6521.o herbvi.o herwigmain.o -lgfortran -lgfortranbegin $(RIVETINCLUDE) $(RIVETLIB) -Llib -ljimmy -o herwig65.exe
 
 clean:
-	rm -rf lib include herwig65.exe jimmy* *.o herwig.yoda
+	rm -rf herwig65.exe *.o herwig.yoda
 
