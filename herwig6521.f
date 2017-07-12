@@ -40446,10 +40446,10 @@ C---PARAMETERS CONTROLLING VERY SMALL-X BEHAVIOUR OF PDFS
 C---STRUCTURE FUNCTION SET:
 C   SET MODPDF(I)=MODE AND AUTPDF='AUTHOR GROUP' TO USE CERN LIBRARY
 C   PDFLIB PACKAGE FOR STRUCTURE FUNCTIONS IN BEAM I
-      MODPDF(1)=-1
-      MODPDF(2)=-1
-      AUTPDF(1)='MRS'
-      AUTPDF(2)='MRS'
+      MODPDF(1)=11000
+      MODPDF(2)=11000
+      AUTPDF(1)='HWLHAPDF'
+      AUTPDF(2)='HWLHAPDF'
 C   OR SET MODPDF(I)=-1 TO USE BUILT-IN STRUCTURE FUNCTION SET:
 C   1,2 FOR DUKE+OWENS SETS 1,2 (SOFT/HARD GLUE)
 C   3,4 FOR EICHTEN+AL SETS 1,2 (NUCLEONS ONLY)
@@ -47534,6 +47534,7 @@ C---FIX TO CALL SCHULER-SJOSTRAND CODE
               PARMSAVE=PARM(1)
               VALSAVE=VAL(1)
               CALL PDFSET(PARM,VAL)
+              print*, 'parm=', parm, 'val=', val
             ENDIF
             IF (X.LT.PDFXMN.AND.PDFWRX(IBEAM,1) .OR.
      &          X.GT.PDFXMX.AND.PDFWRX(IBEAM,2)) THEN
@@ -63013,20 +63014,20 @@ CDECK  ID>, PDFSET.
 *CMZ :-        -26/04/91  11.11.54  by  Bryan Webber
 *-- Author :    Bryan Webber
 C----------------------------------------------------------------------
-      SUBROUTINE PDFSET(PARM,VAL)
+C      SUBROUTINE PDFSET(PARM,VAL)
 C----------------------------------------------------------------------
 C     DUMMY SUBROUTINE: DELETE AND SET MODPDF(I)
 C     IN MAIN PROGRAM IF YOU USE PDFLIB CERN-LIBRARY
 C     PACKAGE FOR NUCLEON STRUCTURE FUNCTIONS
 C----------------------------------------------------------------------
-      IMPLICIT NONE
-      DOUBLE PRECISION VAL(20)
-      CHARACTER*20 PARM(20)
-      WRITE (6,10)
-   10 FORMAT(/10X,'PDFSET CALLED BUT NOT LINKED')
-      IF (PARM(1).EQ.'DUMMY') VAL(1)=0
-      STOP
-      END
+C      IMPLICIT NONE
+C      DOUBLE PRECISION VAL(20)
+C      CHARACTER*20 PARM(20)
+C      WRITE (6,10)
+C   10 FORMAT(/10X,'PDFSET CALLED BUT NOT LINKED')
+C      IF (PARM(1).EQ.'DUMMY') VAL(1)=0
+C      STOP
+C      END
 CDECK  ID>, PHOINI.
 *CMZ :-        -17/10/01  10.03.37  by  Peter Richardson
 *-- Author :    Peter Richardson
@@ -63042,8 +63043,7 @@ C-----------------------------------------------------------------------
       STOP
       END
 CDECK  ID>, PHOTOS.
-*CMZ :-        -17/10/01  10.03.37  by  Peter Richardson
-*-- Author :    Peter Richardson
+C-- Author :    Peter Richardson
 C-----------------------------------------------------------------------
       SUBROUTINE PHOTOS(IHEP)
 C-----------------------------------------------------------------------
@@ -63153,19 +63153,19 @@ CDECK  ID>, STRUCTM.
 *CMZ :-        -26/04/91  11.11.54  by  Bryan Webber
 *-- Author :    Bryan Webber
 C-----------------------------------------------------------------------
-      SUBROUTINE STRUCTM(X,QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU)
+C      SUBROUTINE STRUCTM(X,QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU)
 C-----------------------------------------------------------------------
 C     DUMMY SUBROUTINE: DELETE IF YOU USE PDFLIB CERN-LIBRARY
 C     PACKAGE FOR NUCLEON STRUCTURE FUNCTIONS
 C-----------------------------------------------------------------------
-      IMPLICIT NONE
-      DOUBLE PRECISION X,QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU
-      WRITE (6,10)
-  10  FORMAT(/10X,'STRUCTM CALLED BUT NOT LINKED')
-      IF (X.GT.1D10) WRITE (6,*)
-     $     QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU
-      STOP
-      END
+C      IMPLICIT NONE
+C      DOUBLE PRECISION X,QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU
+C      WRITE (6,10)
+C  10  FORMAT(/10X,'STRUCTM CALLED BUT NOT LINKED')
+C      IF (X.GT.1D10) WRITE (6,*)
+C     $     QSCA,UPV,DNV,USEA,DSEA,STR,CHM,BOT,TOP,GLU
+C      STOP
+C      END
 C-----------------------------------------------------------------------
 C...SaSgam version 2 - parton distributions of the photon
 C...by Gerhard A. Schuler and Torbjorn Sjostrand

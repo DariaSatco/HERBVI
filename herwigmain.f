@@ -30,48 +30,52 @@ C     NOWGT=.FALSE.
       MAXPR=0                    
       PRVTX = .FALSE.
 C---TOP MASS                                                            
-      RMASS(6)=175.             
+      RMASS(6)=172.5             
 C---INPUT SUSY PARTICLE (AND TOP QUARK) DATA
 c      CALL HWISSP                                                  
       NRN(1)= 431269609                                                 
       NRN(2)=2127819028                                               
 C---HIGGS MASS                                                          
-      RMASS(201)=300.      
+      RMASS(201)=125.      
 C***********************************************************************
 
 C     JIMMY initialization
       CALL JIMMIN
 
-c      MODPDF(1)=46
-c      AUTPDF(1)='CTEQ'
-c      MODPDF(2)=46
-c      AUTPDF(2)='CTEQ'
+      MODPDF(1)=260000
+      AUTPDF(1)='HWLHAPDF'
+      MODPDF(2)=260000
+      AUTPDF(2)='HWLHAPDF'
 
 c     Minimum PT of the hardest scatter
-      PTMIN=0.
+      PTMIN=10.
 
 
 c     Minimum PT of secondary scatters
-      IBEAM=0
+C  IBEAM=0
       IF(IBEAM.NE.0) THEN
-         PTJIM=4.9
-         JMUEO = 1
-         JMRAD(73) = 1.8
-         PRSOF=0.
-         IPRINT = 2
+C         PTJIM=4.9
+C         JMUEO = 1
+C         JMRAD(73) = 1.8
+C         PRSOF=0.
+C         IPRINT = 2
+         JMUEO=1
+         PTJIM=2.8
+C         PRRAD=1.8
+         IPRINT=2
 
 C---  Turn MI on(1) or off(0)
          MSFLAG=1
       ELSE
          MSFLAG=0
       ENDIF
-      IBEAM=1
+C      IBEAM=1
       CALL HWUINC
       CALL HWEINI            
       CALL HVINIT
 
 C******changed number of events MAXEV (orig.10000) and MAXER (orig. MAXEV/5)****
-      MAXEV=100
+      MAXEV=10000
       MAXER=MAXEV/10
 
 C     Initialise your histograms here.
