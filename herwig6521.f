@@ -40209,6 +40209,7 @@ C Format for track numbers in event listing
 C     PRNDEC=.TRUE.  use decimal
 C            .FALSE. use hexadecimal
       PRNDEC=(NMXHEP.LE.9999)
+C      PRNDEC=(1.LE.9999)
 C Number of significant figures to print out in event listing
 C NPRFMT (< 2) compact 80 character stout and A4-long tex output,
 C (= 2) 2 decimal places in stout, (> 2) - 5 decimal places in stout

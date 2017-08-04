@@ -52,7 +52,7 @@ c     Minimum PT of the hardest scatter
 
 
 c     Minimum PT of secondary scatters
-C  IBEAM=0
+      IBEAM=0
       IF(IBEAM.NE.0) THEN
 C         PTJIM=4.9
 C         JMUEO = 1
@@ -69,7 +69,7 @@ C---  Turn MI on(1) or off(0)
       ELSE
          MSFLAG=0
       ENDIF
-C      IBEAM=1
+      IBEAM=1
       CALL HWUINC
       CALL HWEINI            
       CALL HVINIT

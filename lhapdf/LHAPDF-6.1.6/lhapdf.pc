@@ -1,0 +1,13 @@
+prefix=/afs/cern.ch/user/d/dsatco/herbvi6500
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+
+Name: lhapdf
+Description: LHAPDF parton density library
+URL: https://lhapdf.hepforge.org
+Version: 6.1.6
+Libs: -L${exec_prefix}/lib -lLHAPDF
+Cflags: -I${prefix}/include
+#-I

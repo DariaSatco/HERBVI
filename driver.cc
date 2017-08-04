@@ -24,13 +24,19 @@ int main() {
   std::cin >> energy;
   int nevent;
   std::cin >> nevent;
+  std::string name_of_file;
+  std::cin >> name_of_file;
+  std::string path_of_file;
+  std::cin >> path_of_file;
+  std::ofstream out(path_of_file+name_of_file+".hepmc"); 
+
   // create Rivet analysis handler
   Rivet::AnalysisHandler *_rivet = new Rivet::AnalysisHandler("");
   _rivet->setIgnoreBeams();
   std::string name;  
   while(true) {
-    std::cin  >> name;
-    if(name[0]=='#') break;
+  std::cin  >> name;
+  if(name[0]=='#') break;
     _rivet->addAnalysis(name);
   };
   herwiginit_(&ibeam,&iproc,&energy);
@@ -45,7 +51,8 @@ int main() {
     event->use_units(HepMC::Units::GEV, HepMC::Units::MM);
     _converter.fill_next_event(event);
     //    HepMC::HEPEVT_Wrapper::print_hepevt();
-    //     event->print();
+    
+    event->write( out );
     _rivet->analyze(*event);
     delete event;
   }
@@ -54,7 +61,7 @@ int main() {
   crosssection_(&cross);
   _rivet->setCrossSection(1000.*cross);
   _rivet->finalize();
-  _rivet->writeData("herwig.yoda");
+  _rivet->writeData(path_of_file+name_of_file+".yoda");
   delete _rivet;
   return 0;
 }

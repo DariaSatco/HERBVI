@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="22"
+   name=""
+   committed-date="2006-11-19T13:14:22.031978Z"
+   url="svn+ssh://svn.cedar.ac.uk/svn/hepforge/jimmy/trunk/src/divon4"
+   last-author="jmb"
+   kind="dir"
+   uuid="8fb1b30c-6803-0410-8c38-a2303a73d600"
+   revision="29"/>
+<entry
+   committed-rev="6"
+   name="split.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="c619bf838ab482d4f28d83ece8b2722e"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="tredmp.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="3b5986092945fc6972bda530a089499c"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="usrtrm.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="b1361837010b0727e223db87f289ae4c"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bufopt.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="8640b2eab00d729a29516f5ef475098a"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="rlen.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="ed4a5863b6a93c31e8f6506b18057cfd"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="modchl.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="1d4f59706267baa942724c16ecfafe4a"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="recparz.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="ab0a74dbd222561e67ffcd4f255064d7"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="10"
+   name="dvnbkd.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-29T16:19:55.000000Z"
+   checksum="67b702e10bad3ec0b9d3ee48b2b2aecf"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="nodaud.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="648159b606a843bf9e3b613ed1bf87c7"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="settol.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="d655b5ee1eef09edf8218dd0457fb96e"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="divon.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="50f1027393247de550cd45f8bd8faf63"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bucmve.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="9e80e3f2b376806b1fcf5fc089d272ab"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="quasi.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="3bdeff198df070e3b47b6f70a6edac9b"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="mulchk.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="6906b4d94120b0a05652c6051fee2e33"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="exmbuc.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="fab79a1b6639fe6be36beec7ae946267"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="shrnk.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="f49353813e22f613a014d15e550d50b4"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="nocut.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="f39d728861ccc69643fdcd4b8e4bb6af"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="fun.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="7cd194cf9645a8189faedba66b033e5a"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="delbnd.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="4be8c1cbdb921dd4314800fe3ed1fcca"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="ldlsol.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="7288b423c1150041e95c88c1e9c6621a"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bounds.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="c0b0e5537b29fc88d2484b2a04337fe2"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="quad.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="3d478c5743b94bc43d3f65f55995794c"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="22"
+   name="genpnt.F"
+   text-time="2006-11-19T13:11:36.000000Z"
+   committed-date="2006-11-19T13:14:22.031978Z"
+   checksum="b5e0c93d28d38140293061e42263f73b"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="tstext.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="9b32fb43fa5574916ccd4d88026ae4b2"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bndtst.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="c87d7eb85e025107a01b5c36ccb3f5dd"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="intgrl.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="c143c531a51eaf8ff2aedb19b6a9c497"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="delete.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="48b9e387f3c718cb058b6a5a47ea9635"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="dvcopy.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="7d3ecfe4754cc7ed8cff3d662ef2f1f2"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="orthvc.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="603f3945f59819e36f624765a4ad1749"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="nmdchl.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="cd595d63d5739cb4fe1c1d7e6a7d9f60"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="ranums.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="48e9dab5ee66eb417672ba7c1b3f6bfb"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="locsch.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="853f5b58fb38e2968364c742bfad98ec"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="grdcmp.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="d61bf89b5b7fe8817db424d5e225f4bb"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="addbnd.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="ea0a87a35f36ea3db586797d8853cb90"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="newptq.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="282ddbff2c3a81f99e2df8da723adad2"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="mxstep.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="95809ac5bd1565c07ea29fc3231d191e"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="dvdot.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="75d091ffe5bd9a0a8e333f07d6257da8"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bfgs.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="f8adb3a779a5e17deb6ed0e93c05f390"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="feasmv.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="ea0e9e2c2816fd24e5f4380a5204def9"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="partn.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="4d137b89d53a325810a4f52ef73eebce"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="treaud.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="7844fdcd343233d8ba72c0888d2c7316"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="usrint.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="e7cb4f6fb5886de351cea15024df8d2e"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="bndopt.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="e24284a6518c7a3debc30cb38f5d3117"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="feqn.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="1631a500167d99ae94abe76c18f92270"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+<entry
+   committed-rev="6"
+   name="delslv.F"
+   text-time="2006-03-04T10:13:04.000000Z"
+   committed-date="2005-07-21T15:53:19.000000Z"
+   checksum="6c18c5e211697e028e5323016479347b"
+   last-author="jmb"
+   kind="file"
+   prop-time="2006-03-04T10:13:04.000000Z"/>
+</wc-entries>

@@ -1,0 +1,101 @@
+# BEGIN PLOT
+RatioPlotYLabel=Ratio
+LegendOnly=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_20t_ev.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_ct14nlo.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_mmht2014.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_nnpdf30.yoda/MC_SUSY/n-gamma
+XLabel=$N_\gamma$
+RatioPlotReference=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_20t_ev.yoda/MC_SUSY/n-gamma
+YLabel=$\mathrm{d}N_\text{evt}/\mathrm{d}N_\gamma$
+DrawOnly=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_20t_ev.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_ct14nlo.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_mmht2014.yoda/MC_SUSY/n-gamma //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_nnpdf30.yoda/MC_SUSY/n-gamma
+RatioPlot=1
+Title=Multiplicity distribution for photons
+Legend=1
+LogY=0
+# END PLOT
+
+# BEGIN HISTO1D //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_20t_ev.yoda/MC_SUSY/n-gamma
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_20t_ev.yoda/MC_SUSY/n-gamma
+Title=mstw1998
+XLabel=
+YLabel=
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.500000e+00	7.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+7.500000e+00	8.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.500000e+00	9.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.500000e+00	1.050000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+# BEGIN HISTO1D //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_ct14nlo.yoda/MC_SUSY/n-gamma
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_ct14nlo.yoda/MC_SUSY/n-gamma
+Title=ct14nlo
+XLabel=
+YLabel=
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.500000e+00	7.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+7.500000e+00	8.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.500000e+00	9.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.500000e+00	1.050000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+# BEGIN HISTO1D //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_mmht2014.yoda/MC_SUSY/n-gamma
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_mmht2014.yoda/MC_SUSY/n-gamma
+Title=mmht2014
+XLabel=
+YLabel=
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.500000e+00	7.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+7.500000e+00	8.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.500000e+00	9.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.500000e+00	1.050000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+# BEGIN HISTO1D //afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_nnpdf30.yoda/MC_SUSY/n-gamma
+ErrorBars=1
+LineColor=orange
+LineStyle=solid
+Path=//afs/cern.ch/user/d/dsatco/herbvi6500/yoda_files/40TeV_iproc7099_nnpdf30.yoda/MC_SUSY/n-gamma
+Title=nnpdf30
+XLabel=
+YLabel=
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.500000e+00	7.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+7.500000e+00	8.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.500000e+00	9.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.500000e+00	1.050000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
